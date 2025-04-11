@@ -6,7 +6,7 @@ else
   INSTALL_PATH="/usr/local/bin"
 fi
 
-curl -o $INSTALL_PATH/nimrun https://github.com/Waynecoffe/nimrun/main/nimrun
+curl -o $INSTALL_PATH/nimrun https://raw.githubusercontent.com/Waynecoffe/nimrun/main/nimrun
 chmod +x $INSTALL_PATH/nimrun
 
 echo "Done!!"
